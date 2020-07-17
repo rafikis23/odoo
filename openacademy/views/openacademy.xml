@@ -1,8 +1,10 @@
 <odoo>
         <!-- window action -->
-        <! --
+        <!--
+            The following tag is an action definition for a "window action",
+            that is an action opening a view or a set of views
         -->
-        <record model="ir.actions.act_window" id="course_list_action"
+        <record model="ir.actions.act_window" id="course_list_action">
             <field name="name">Courses</field>
             <field name="res_model">openacademy.course</field>
             <field name="view_mode">tree,form</field>
